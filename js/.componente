@@ -1,0 +1,5 @@
+const componente = document.querySelectorAll('.componente');
+componente.forEach((compo, index) => {
+    console.log(compo.innerHTML);
+    compo.innerHTML = '<h1>MENU</h1>';
+ });
